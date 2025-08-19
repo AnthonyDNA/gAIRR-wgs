@@ -13,20 +13,20 @@ mkdir {your_work_dir}
 ```
 cd {your_work_dir}
 ```
-3. Clone gAIRR-wgs script
+2. Clone gAIRR-wgs script
 
 ```
 git clone git@github.com:AnthonyDNA/gAIRR-wgs.git
 ```
-2. Create environment management system
+3. Create environment management system
 ```
 conda env create -f gAIRR-wgs_env.yaml
 ```
-3. Activate virtual environment
+4. Activate virtual environment
 ```
 conda activate gAIRR-wgs
 ```
-4. Patch the gAIRR-wgs module
+5. Patch the gAIRR-wgs module
 ```
 bash clone_script.sh
 ```
