@@ -1,5 +1,5 @@
 # gAIRR-wgs
-**gAIRR-wgs** enables genotyping of **germline T cell receptor (TR) genes** from standard whole-genome sequencing data (paired-end 150 bp, ~30× coverage or higher).
+**gAIRR-wgs** is an extension of gAIRR-call, designed to enable genotyping of **germline T cell receptor (TR) genes** from standard whole-genome sequencing (WGS) data (paired-end 150 bp, ~30× coverage or higher).
 ## Prerequisite programs:
 * SAMTOOLS (1.18)
 * BWA aligner (0.7.17)
