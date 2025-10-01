@@ -1,5 +1,9 @@
 # gAIRR-wgs
 **gAIRR-wgs** enables genotyping of **germline T cell receptor (TR) genes** from standard whole-genome sequencing data (paired-end 150 bp, ~30× coverage or higher).
+
+**gAIRR-wgs** is designed for genotyping germline ***T cell receptor*** genes (g*TR*)  from standard whole-genome sequencing (WGS) data (paired-end 150 bp, ~30× coverage or higher).
+For targeted panel sequencing, please refer to [gAIRR-call](https://github.com/maojanlin/gAIRRsuite).
+
 ## Prerequisite programs:
 * SAMTOOLS (1.18)
 * BWA aligner (0.7.17)
@@ -32,7 +36,6 @@ bash clone_script.sh
 ```
 
 ## Usage
-* Same as the [gAIRR-call](https://github.com/maojanlin/gAIRRsuite) command (for panel sequencing data)
 ```
 $ gAIRR_call -wd <work_dir> -id <sample_ID> -rd1 <read.R1.fastq.gz> -rd2 <read.R2.fastq.gz> -lc <TRV TRJ TRD IGV IGJ IGD>
 ```

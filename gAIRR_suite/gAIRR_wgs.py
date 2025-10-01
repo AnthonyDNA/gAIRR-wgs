@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Wrap up python file for gAIRR-wgs pipeline of gAIRR-suite
 import subprocess
 import sys
