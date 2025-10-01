@@ -35,5 +35,10 @@ bash clone_script.sh
 
 ## Usage
 ```
-$ gAIRR_call -wd <work_dir> -id <sample_ID> -rd1 <read.R1.fastq.gz> -rd2 <read.R2.fastq.gz> -lc <TRV TRJ TRD>
+$ gAIRR_call \
+    -wd <work_dir> \
+    -id <sample_ID> \
+    -rd1 <read.R1.fastq.gz> \
+    -rd2 <read.R2.fastq.gz> \
+    -lc <TRV TRJ TRD>
 ```
