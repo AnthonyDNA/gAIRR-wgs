@@ -42,3 +42,17 @@ $ gAIRR_wgs \
     -rd2 <read.R2.fastq.gz> \
     -lc <TRV TRJ TRD>
 ```
+
+## Example
+This repository provides test materials under `test_sample/`.
+
+### Test inputs
+- `test_sample/HG002_part_R1.fastq.gz`
+- `test_sample/HG002_part_R2.fastq.gz`
+
+### Run the test
+1. Open and modify `test_sample/test_script.sh` as needed.
+2. Execute:
+   ```bash
+   cd test_sample
+   bash test_script.sh
