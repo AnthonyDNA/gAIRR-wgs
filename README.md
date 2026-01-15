@@ -35,7 +35,7 @@ bash clone_script.sh
 
 ## Usage
 ```
-$ gAIRR_call \
+$ gAIRR_wgs \
     -wd <work_dir> \
     -id <sample_ID> \
     -rd1 <read.R1.fastq.gz> \
