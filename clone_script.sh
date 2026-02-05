@@ -25,3 +25,15 @@ PY
 chmod +x "$ENV_BIN/gAIRR_wgs"
 
 
+# Install gAIRR_extract
+cat > "$ENV_BIN/gAIRR_extract" << 'SHELL'
+#!/bin/bash
+# Wrapper script to execute the gAIRR extract shell script from the installed package
+
+SCRIPT_DIR="$(python -c "import site; print(site.getsitepackages()[0])")/gAIRR_suite"
+exec bash "$SCRIPT_DIR/gAIRR_extract.sh" "$@"
+SHELL
+
+chmod +x "$ENV_BIN/gAIRR_extract"
+
+

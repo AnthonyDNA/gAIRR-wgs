@@ -53,6 +53,43 @@ This repository provides test materials under `test_sample/`.
 ### Run the test
 1. Open and modify `test_sample/test_script.sh` as needed.
 2. Execute:
-   ```bash
+   ```
    cd test_sample
    bash test_script.sh
+   ```
+
+
+## gAIRR_extract - Read Extraction Tool
+Extract gAIRR reads from BAM/CRAM/FASTQ files
+
+### Usage
+
+```
+$ gAIRR_extract \
+    -l <samples.tsv> \
+    -o <output_dir> \
+    [-t <thread>]
+```
+### Example
+#### Sample List Format
+**For BAM/CRAM files:**
+```tsv
+sample_ID	path1
+HG001	/path/to/HG001.cram
+HG002	/path/to/HG002.bam
+```
+
+**For FASTQ files:**
+```tsv
+sample_ID	path1	path2
+Sample1	/path/to/Sample1_R1.fastq.gz	/path/to/Sample1_R2.fastq.gz
+Sample2	/path/to/Sample2_R1.fq	/path/to/Sample2_R2.fq
+```
+#### Command
+Execute:
+   ```
+   gAIRR_extract \
+    -l /path/to/sample_list.tsv
+    -o /path/to/out_put_dir
+    -t 20
+   ```
