@@ -72,14 +72,14 @@ $ gAIRR_extract \
 ```
 ### Example
 #### Sample List Format
-**For BAM/CRAM files:**
+##### **For BAM/CRAM files:**
 ```tsv
 sample_ID	path1
 HG001	/path/to/HG001.cram
 HG002	/path/to/HG002.bam
 ```
 
-**For FASTQ files:**
+##### **For FASTQ files:**
 ```tsv
 sample_ID	path1	path2
 Sample1	/path/to/Sample1_R1.fastq.gz	/path/to/Sample1_R2.fastq.gz
@@ -88,8 +88,8 @@ Sample2	/path/to/Sample2_R1.fq	/path/to/Sample2_R2.fq
 #### Command
 Execute:
    ```
-   gAIRR_extract \
-    -l /path/to/sample_list.tsv
-    -o /path/to/out_put_dir
+   $ gAIRR_extract \
+    -l /path/to/sample_list.tsv \
+    -o /path/to/out_put_dir \
     -t 20
    ```
