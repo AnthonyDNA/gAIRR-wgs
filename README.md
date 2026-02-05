@@ -89,7 +89,7 @@ Sample2	/path/to/Sample2_R1.fq	/path/to/Sample2_R2.fq
 Execute:
    ```
    $ gAIRR_extract \
-    -l /path/to/sample_list.tsv \
-    -o /path/to/out_put_dir \
-    -t 20
+      -l /path/to/sample_list.tsv \
+      -o /path/to/out_put_dir \
+      -t 20
    ```
