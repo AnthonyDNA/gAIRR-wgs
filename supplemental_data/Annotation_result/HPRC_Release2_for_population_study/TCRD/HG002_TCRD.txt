@@ -1,0 +1,9 @@
+TRDD2*01,HG002#1#chr14,22141612,23
+TRDD1*01,HG002#1#chr14,22141152,21
+There are 0 novel alleles in total 2 alleles from 1 contigs in H1.
+TRBD2*01,HG002#2#chr7,144407516,30
+TRBD1*01,HG002#2#chr7,144398024,26
+TRDD3*01,HG002#2#chr14,24400815,27
+TRDD2*01,HG002#2#chr14,24390709,23
+TRDD1*01,HG002#2#chr14,24390249,21
+There are 0 novel alleles in total 5 alleles from 2 contigs in H2.
