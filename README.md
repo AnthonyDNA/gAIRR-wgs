@@ -5,7 +5,8 @@ For targeted panel sequencing, please refer to [gAIRR-call](https://github.com/m
 ## Prerequisite programs:
 * SAMTOOLS (1.18)
 * BWA aligner (0.7.17)
-* SPAdes assembler (v3.13.0)
+* SPAdes assembler (3.13.0)
+* python (3.7.13)
 
 ## Installation (recommend)
 1. Create work directory for gAIRR-wgs
