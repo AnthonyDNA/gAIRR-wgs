@@ -1,0 +1,10 @@
+sample_ID	path1	path2
+# ---- Examples (delete these lines and fill in your own) ----
+# BAM / CRAM row  (leave path2 empty):
+# HG002	/work/user/bams/HG002.bam
+# HG003	/work/user/crams/HG003.cram
+#
+# Paired FASTQ row (path2 required):
+# HG004	/work/user/fastq/HG004.R1.fastq.gz	/work/user/fastq/HG004.R2.fastq.gz
+#
+# Mixed is fine - gAIRR_extract auto-detects by file extension.

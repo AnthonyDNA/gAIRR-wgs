@@ -1,0 +1,13 @@
+# Symlinks produced by clone_script.sh (resolved at install time, not committed)
+gAIRR_suite_R/scripts
+gAIRR_suite_R/material
+
+# R / macOS cruft
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Test outputs
+test_sample/target_call/
+test_sample/*.log

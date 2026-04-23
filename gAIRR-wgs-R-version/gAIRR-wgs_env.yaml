@@ -1,0 +1,23 @@
+name: gAIRR-wgs
+# Environment for the R version of gAIRR-wgs.  Adds r-base to the same
+# dependency set as the original; pinning is kept loose so the env resolves
+# on fresh installs.  The three external tools (bwa, samtools, spades) are
+# still required because the R wrappers delegate to them.
+channels:
+  - conda-forge
+  - bioconda
+  - r
+  - defaults
+dependencies:
+  - python=3.7
+  - bwa=0.7.17
+  - samtools=1.18
+  - spades=3.13.0
+  - numpy=1.17.0
+  - perl
+  - r-base>=4.0
+  - pip
+  - pip:
+      - gairr-suite==0.2.0
+      - pyfastx==2.0.1
+      - pysam==0.22.0
